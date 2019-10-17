@@ -40,6 +40,7 @@ class Readfile{
       if(!file)
       {
         cout<<"Error in opening file!!!"<<endl;
+
       }
       //read and print file content
       cout << endl << "File Content: "<<endl<<endl;
@@ -147,8 +148,8 @@ int main(){
     Deletefile df;
     Appendfile af;
 
-    int condition, option;
-    string x, y, mode;
+    int option;
+    string x, mode;
     bool flag = true;
 
         while(flag != false){
